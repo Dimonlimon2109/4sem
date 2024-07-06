@@ -1,0 +1,426 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\4_sem\\OOP\\Sports_Store\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|d:\\study\\4_sem\\oop\\sports_store\\command\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:command\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\database\\sportscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:database\\sportscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\mainview\\basket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\mainview\\basket.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\mainview\\goodpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\mainview\\goodpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\mainview\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\mainview\\profile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\goodpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\goodpagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\catalogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\catalogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\basketgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\basketgood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\models\\globalresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:models\\globalresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\profilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\profilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\mainview\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\mainview\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\mainvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\mainview\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\mainview\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\viewmodels\\authorizationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:viewmodels\\authorizationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\authorization\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\authorization\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\authorization\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\authorization\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\views\\authorization\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:views\\authorization\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\sports_store.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:sports_store.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|D:\\study\\4_sem\\OOP\\Sports_Store\\resources\\foto-empty.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{2F612F26-C410-443B-9108-337F2ADCBF7E}|Sports_Store.csproj|solutionrelative:resources\\foto-empty.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAA9wCwAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:25:45.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Good.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Good.cs",
+              "RelativeDocumentMoniker": "Models\\Good.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Good.cs",
+              "RelativeToolTip": "Models\\Good.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:24:10.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Profile.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Profile.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView\\Profile.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Profile.xaml",
+              "RelativeToolTip": "Views\\MainView\\Profile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:15:56.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoodPage.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\GoodPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView\\GoodPage.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\GoodPage.xaml",
+              "RelativeToolTip": "Views\\MainView\\GoodPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:13:24.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyCommand.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Command\\MyCommand.cs",
+              "RelativeDocumentMoniker": "Command\\MyCommand.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Command\\MyCommand.cs",
+              "RelativeToolTip": "Command\\MyCommand.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAAAkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T00:05:50.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Review.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:25:42.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SportsContext.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Database\\SportsContext.cs",
+              "RelativeDocumentMoniker": "Database\\SportsContext.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Database\\SportsContext.cs",
+              "RelativeToolTip": "Database\\SportsContext.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADwvwcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:09:42.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Basket.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Basket.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView\\Basket.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Basket.xaml",
+              "RelativeToolTip": "Views\\MainView\\Basket.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:10:27.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T22:59:38.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CatalogVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\CatalogVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CatalogVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\CatalogVM.cs",
+              "RelativeToolTip": "ViewModels\\CatalogVM.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAcwGkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:25:11.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BasketGood.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\BasketGood.cs",
+              "RelativeDocumentMoniker": "Models\\BasketGood.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\BasketGood.cs",
+              "RelativeToolTip": "Models\\BasketGood.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAIwA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:27:53.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalResources.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\GlobalResources.cs",
+              "RelativeDocumentMoniker": "Models\\GlobalResources.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\GlobalResources.cs",
+              "RelativeToolTip": "Models\\GlobalResources.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:27:52.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProfileVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\ProfileVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ProfileVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\ProfileVM.cs",
+              "RelativeToolTip": "ViewModels\\ProfileVM.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAiwFMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:01:15.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T21:25:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\MainVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\MainVM.cs",
+              "RelativeToolTip": "ViewModels\\MainVM.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:58:16.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Authorization.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\Authorization.xaml",
+              "RelativeDocumentMoniker": "Views\\Authorization\\Authorization.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\Authorization.xaml",
+              "RelativeToolTip": "Views\\Authorization\\Authorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:13:01.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GoodPageVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\GoodPageVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\GoodPageVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\GoodPageVM.cs",
+              "RelativeToolTip": "ViewModels\\GoodPageVM.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAowD0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:25:12.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LogIn.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\LogIn.xaml",
+              "RelativeDocumentMoniker": "Views\\Authorization\\LogIn.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\LogIn.xaml",
+              "RelativeToolTip": "Views\\Authorization\\LogIn.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:13:03.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Main.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView\\Main.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Main.xaml",
+              "RelativeToolTip": "Views\\MainView\\Main.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:10:38.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasketVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\BasketVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BasketVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\BasketVM.cs",
+              "RelativeToolTip": "ViewModels\\BasketVM.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAwwNIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:16:49.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorizationVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\AuthorizationVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AuthorizationVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\ViewModels\\AuthorizationVM.cs",
+              "RelativeToolTip": "ViewModels\\AuthorizationVM.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwFsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T22:16:47.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Views\\MainView\\Catalog.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\MainView\\Catalog.xaml",
+              "RelativeToolTip": "Views\\MainView\\Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:10:35.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\Registration.xaml",
+              "RelativeDocumentMoniker": "Views\\Authorization\\Registration.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Views\\Authorization\\Registration.xaml",
+              "RelativeToolTip": "Views\\Authorization\\Registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T21:13:06.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Sports_Store",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Sports_Store.csproj",
+              "RelativeDocumentMoniker": "Sports_Store.csproj",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Sports_Store.csproj",
+              "RelativeToolTip": "Sports_Store.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-16T21:43:44.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "foto-empty.png",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Sports_Store\\Resources\\foto-empty.png",
+              "RelativeDocumentMoniker": "Resources\\foto-empty.png",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Sports_Store\\Resources\\foto-empty.png",
+              "RelativeToolTip": "Resources\\foto-empty.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-05-16T21:27:44.347Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

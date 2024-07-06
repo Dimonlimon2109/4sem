@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="LanguageT">English</v:String>
+    <v:String x:Key="CategoryT">Category</v:String>
+    <v:String x:Key="ColorT">Color</v:String>
+    <v:String x:Key="CostT">Cost</v:String>
+    <v:String x:Key="ApplyT">Apply</v:String>
+    <v:String x:Key="ResetT">Reset</v:String>
+    <v:String x:Key="AddingT">Additing Good</v:String>
+    <v:String x:Key="NameT">Name</v:String>
+    <v:String x:Key="ShortNameT">Short Name</v:String>
+    <v:String x:Key="DescriptionT">Description</v:String>
+    <v:String x:Key="RatingT">Rating</v:String>
+    <v:String x:Key="PriceT">Price</v:String>
+    <v:String x:Key="AvailableT">is Available?</v:String>
+    <v:String x:Key="ImageT">Image</v:String>
+    <v:String x:Key="ChooseT">Choose</v:String>
+    <v:String x:Key="AddT">Add</v:String>
+    <v:String x:Key="CurrencyT">byn</v:String>
+    <v:String x:Key="DeleteT">Delete</v:String>
+    <v:String x:Key="EditT">Edit</v:String>
+    <v:String x:Key="ChangeCT">Theme</v:String>
+</ResourceDictionary>

@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Sports_store.Views.MainView.Basket"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sports_store.Views.MainView"
+             xmlns:viewmodels="clr-namespace:Sports_store.ViewModels"
+             xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1000" Background="White">
+    <UserControl.DataContext>
+        <viewmodels:BasketVM/>
+    </UserControl.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl Grid.Row="0" ItemsSource="{Binding BasketGoods}" VerticalAlignment="Top" Margin="30">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="1"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" Margin="0 0 0 30">
+                            <Image Height="250" Width="250" Source="{Binding Good.Image}" Stretch="Fill"/>
+                            <TextBlock Margin="20 40 0 0" FontSize="20" TextWrapping="Wrap" Width="250" Height="80" Style="{StaticResource TextBlockAuth}" Text="{Binding Good.Name}"/>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" Text="{Binding Good.Cost}"/>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" FontSize="30" Margin="0 0 0 25" Text="-">
+                                    <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="MouseDown">
+                                        <i:InvokeCommandAction Command="{Binding DataContext.Minus, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" Margin="10 0 10 0" Text="{Binding Amount, UpdateSourceTrigger=PropertyChanged}"/>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" FontSize="30" Margin="0 0 30 25" Text="+">
+                                    <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="MouseDown">
+                                        <i:InvokeCommandAction Command="{Binding DataContext.Plus, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </TextBlock>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" Text="Всего:"/>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" Text="{Binding TotalCost, UpdateSourceTrigger=PropertyChanged}"/>
+                            <TextBlock Style="{StaticResource TextBlockAuth}" Margin="-15 0 0 0" Text="руб."/>
+                            <Button Style="{DynamicResource BlackWhiteButton}" Height="60" Content="Удалить" Margin="10 0 0 0"
+                                    Command="{Binding DataContext.DeleteFromBasket, RelativeSource={RelativeSource AncestorType={x:Type UserControl}}}" CommandParameter="{Binding}">
+                            </Button>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <StackPanel Margin="20 10 10 10">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Адрес"/>
+                <TextBox Style="{StaticResource TextBoxAuth}" Text="{Binding CurrentOrder.Adress}"/>
+            </StackPanel>
+            <StackPanel Margin="0 10 10 10">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Способ оплаты при получении"/>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Content="Наличные" IsChecked="{Binding Cash, Mode=TwoWay}" />
+                    <RadioButton Content="Банковская карта" IsChecked="{Binding Card, Mode=TwoWay}" />
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Margin="0 10 10 10">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Комментарий к заказу"/>
+                <TextBox Style="{StaticResource TextBoxAuth}" Text="{Binding CurrentOrder.Description}"/>
+            </StackPanel>
+            <StackPanel Margin="0 10 10 10">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Итого"/>
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="{Binding CurrentOrder.TotalCost}"/>
+            </StackPanel>
+        </StackPanel>
+        <Button Grid.Row="2" Style="{StaticResource BlackWhiteButton}" Content="Заказать" Command="{Binding OrderingGoods}" Height="50" Width="100"/>
+    </Grid>
+</UserControl>

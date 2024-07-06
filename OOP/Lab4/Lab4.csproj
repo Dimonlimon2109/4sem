@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="logo.png" />
+    <None Remove="plus.png" />
+    <None Remove="Resources\Diamond_Picaxe.cur" />
+    <None Remove="Resources\normal.cur" />
+    <None Remove="Resources\redo.png" />
+    <None Remove="Resources\undo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="logo.png" />
+    <Resource Include="plus.png" />
+    <Resource Include="Resources\normal.cur" />
+    <Resource Include="Resources\redo.png" />
+    <Resource Include="Resources\undo.png" />
+  </ItemGroup>
+
+</Project>

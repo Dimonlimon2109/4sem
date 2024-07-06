@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\4_sem\\OOP\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\resourcedictionaries\\themes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:resourcedictionaries\\themes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\viewmodels\\catalogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:viewmodels\\catalogvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\resourcedictionaries\\lang.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:resourcedictionaries\\lang.ru-ru.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|d:\\study\\4_sem\\oop\\lab4\\viewmodels\\selectedvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:viewmodels\\selectedvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\resources\\normal.cur||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:resources\\normal.cur||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\viewmodels\\filtervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:viewmodels\\filtervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\viewmodels\\addvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:viewmodels\\addvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:models\\good.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\addgood.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:addgood.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\addgood.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:addgood.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\selected.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:selected.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\resourcedictionaries\\lang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:resourcedictionaries\\lang.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|D:\\study\\4_sem\\OOP\\Lab4\\lab4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E2C31B6A-64A9-4EC1-AF17-7D52647DF398}|Lab4.csproj|solutionrelative:lab4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 241,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "lang.ru-RU.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\lang.ru-RU.xaml",
+              "RelativeDocumentMoniker": "ResourceDictionaries\\lang.ru-RU.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\lang.ru-RU.xaml",
+              "RelativeToolTip": "ResourceDictionaries\\lang.ru-RU.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T14:39:58.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Catalog.xaml",
+              "RelativeDocumentMoniker": "Catalog.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Catalog.xaml",
+              "RelativeToolTip": "Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-06T02:01:11.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:14:51.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectedVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\SelectedVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SelectedVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\SelectedVM.cs",
+              "RelativeToolTip": "ViewModels\\SelectedVM.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwEgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T22:50:24.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilterVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\FilterVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\FilterVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\FilterVM.cs",
+              "RelativeToolTip": "ViewModels\\FilterVM.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAD4v5oAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T22:50:09.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Themes.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\Themes.xaml",
+              "RelativeDocumentMoniker": "ResourceDictionaries\\Themes.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\Themes.xaml",
+              "RelativeToolTip": "ResourceDictionaries\\Themes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-10T09:12:36.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-11T08:58:14.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\CatalogVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CatalogVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\CatalogVM.cs",
+              "RelativeToolTip": "ViewModels\\CatalogVM.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:54:19.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "normal.cur - Cursor [48x48, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Resources\\normal.cur",
+              "RelativeDocumentMoniker": "Resources\\normal.cur",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Resources\\normal.cur - Cursor [48x48, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "RelativeToolTip": "Resources\\normal.cur - Cursor [48x48, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000812|",
+              "WhenOpened": "2024-06-04T13:12:46.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\RelayCommand.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "Commands\\RelayCommand.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T13:34:43.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwCgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T14:14:31.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddVM.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\AddVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AddVM.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ViewModels\\AddVM.cs",
+              "RelativeToolTip": "ViewModels\\AddVM.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAawCcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T22:49:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Good.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Models\\Good.cs",
+              "RelativeDocumentMoniker": "Models\\Good.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Models\\Good.cs",
+              "RelativeToolTip": "Models\\Good.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAawEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T14:29:11.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCgAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T13:50:31.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Catalog.xaml.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Catalog.xaml.cs",
+              "RelativeDocumentMoniker": "Catalog.xaml.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Catalog.xaml.cs",
+              "RelativeToolTip": "Catalog.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T02:07:30.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "lang.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\lang.xaml",
+              "RelativeDocumentMoniker": "ResourceDictionaries\\lang.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\ResourceDictionaries\\lang.xaml",
+              "RelativeToolTip": "ResourceDictionaries\\lang.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T14:18:26.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-19T14:14:55.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddGood.xaml.cs",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\AddGood.xaml.cs",
+              "RelativeDocumentMoniker": "AddGood.xaml.cs",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\AddGood.xaml.cs",
+              "RelativeToolTip": "AddGood.xaml.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwBYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T13:48:34.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Selected.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Selected.xaml",
+              "RelativeDocumentMoniker": "Selected.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Selected.xaml",
+              "RelativeToolTip": "Selected.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-06T03:29:36.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddGood.xaml",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\AddGood.xaml",
+              "RelativeDocumentMoniker": "AddGood.xaml",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\AddGood.xaml",
+              "RelativeToolTip": "AddGood.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-05T13:34:43.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "logo.png",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\logo.png",
+              "RelativeDocumentMoniker": "logo.png",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\logo.png",
+              "RelativeToolTip": "logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-04-11T09:32:33.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Lab4.csproj",
+              "DocumentMoniker": "D:\\study\\4_sem\\OOP\\Lab4\\Lab4.csproj",
+              "RelativeDocumentMoniker": "Lab4.csproj",
+              "ToolTip": "D:\\study\\4_sem\\OOP\\Lab4\\Lab4.csproj",
+              "RelativeToolTip": "Lab4.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-02T11:14:51.834Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

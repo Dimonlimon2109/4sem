@@ -1,0 +1,3 @@
+﻿  String_generator.cpp
+D:\study\4_sem\Math Programming\Lab4\String_generator\String_generator.cpp(24,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  String_generator.vcxproj -> D:\study\4_sem\Math Programming\Lab4\x64\Debug\String_generator.exe

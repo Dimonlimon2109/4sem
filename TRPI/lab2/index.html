@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наперстки</title>
+</head>
+<body>
+<form onsubmit="return save()">
+    <div>
+        <label for="heightN">Высота наперстка</label>
+        <input type="number" name="heightN" id = "heightN">
+    </div>
+    <div>
+        <label for="widthN">Ширина наперстка</label>
+        <input type="number" name="widthN" id = "widthN">
+    </div>
+    <div>
+        <label for="diameter">Диаметр шарика</label>
+        <input type="number" name="diameter" id = "diameter">
+    </div>
+    <input type="submit" id="submit" name="submitbatt" value="Сохранить">
+</form>
+<div class="info">
+    <div class="Table">
+        <label for="result">Результат</label>
+        <input type="text" name="result" id="result" readonly>
+    </div>
+    <div class="resultTable">
+        <p id="correct">Верно</p>
+        <p id="incorrect">Неверно</p>
+    </div>
+</div>
+<div id="game">
+    <div class="cap-container">
+        <div class="cap"><img src="icon.png" alt=""><div id="ball"></div></div>
+        <div class="cap"><img src="icon.png" alt=""></div>
+        <div class="cap"><img src="icon.png" alt=""></div>
+    </div>
+</div>
+<button class="refresh" id="refresh" value="Обновить">Обновить</button>
+<script src="script.js"></script>
+</body>
+</html>

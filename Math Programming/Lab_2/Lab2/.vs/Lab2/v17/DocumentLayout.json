@@ -1,0 +1,294 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|solutionrelative:Main\\Boat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D591147-61AE-4ECF-AC6D-52DC787C5BD1}|..\\Permutations\\Permutations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Permutations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D591147-61AE-4ECF-AC6D-52DC787C5BD1}|..\\Permutations\\Permutations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab1\\Lab1\\Auxil.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Boat_centre\\Boat_centre.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|solutionrelative:Main\\Boat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{406C5DDB-B01C-4325-81F5-60845A3185D3}|Main\\Main.vcxproj|solutionrelative:Main\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B30CC6A-762E-4DBD-8613-8E4F27263985}|..\\Subsets\\Subsets.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702E0DE8-4A0B-4B1E-A858-A646C17CA1D8}|..\\Combinations\\Combinations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combinations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702E0DE8-4A0B-4B1E-A858-A646C17CA1D8}|..\\Combinations\\Combinations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B92A4F7-FA72-463A-A52F-40F9EA8C51F8}|..\\Accommodations\\Accommodations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Accommodations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B92A4F7-FA72-463A-A52F-40F9EA8C51F8}|..\\Accommodations\\Accommodations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B30CC6A-762E-4DBD-8613-8E4F27263985}|..\\Subsets\\Subsets.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Subsets.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{702E0DE8-4A0B-4B1E-A858-A646C17CA1D8}|..\\Combinations\\Combinations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B30CC6A-762E-4DBD-8613-8E4F27263985}|..\\Subsets\\Subsets.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D591147-61AE-4ECF-AC6D-52DC787C5BD1}|..\\Permutations\\Permutations.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 241,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Boat_centre.cpp",
+              "DocumentMoniker": "E:\\Boat_centre\\Boat_centre.cpp",
+              "ToolTip": "E:\\Boat_centre\\Boat_centre.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-21T15:55:31.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Boat.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.cpp",
+              "RelativeDocumentMoniker": "Main\\Boat.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.cpp",
+              "RelativeToolTip": "Main\\Boat.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T13:20:37.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Boat.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.h",
+              "RelativeDocumentMoniker": "Main\\Boat.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Boat.h",
+              "RelativeToolTip": "Main\\Boat.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-12T13:20:24.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Auxil.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab1\\Lab1\\Auxil.cpp",
+              "RelativeDocumentMoniker": "..\\..\\Lab1\\Lab1\\Auxil.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab1\\Lab1\\Auxil.cpp",
+              "RelativeToolTip": "..\\..\\Lab1\\Lab1\\Auxil.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-21T15:40:15.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.cpp",
+              "RelativeDocumentMoniker": "..\\Subsets\\Combi.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.cpp",
+              "RelativeToolTip": "..\\Subsets\\Combi.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.cpp",
+              "RelativeDocumentMoniker": "..\\Combinations\\Combi.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.cpp",
+              "RelativeToolTip": "..\\Combinations\\Combi.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Combinations.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combinations.cpp",
+              "RelativeDocumentMoniker": "..\\Combinations\\Combinations.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combinations.cpp",
+              "RelativeToolTip": "..\\Combinations\\Combinations.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Permutations.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Permutations.cpp",
+              "RelativeDocumentMoniker": "..\\Permutations\\Permutations.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Permutations.cpp",
+              "RelativeToolTip": "..\\Permutations\\Permutations.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.cpp",
+              "RelativeDocumentMoniker": "..\\Permutations\\Combi.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.cpp",
+              "RelativeToolTip": "..\\Permutations\\Combi.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Main.cpp",
+              "RelativeDocumentMoniker": "Main\\Main.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Lab2\\Main\\Main.cpp",
+              "RelativeToolTip": "Main\\Main.cpp",
+              "ViewState": "AQIAADwAAAAAAAAAAAAwwFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T13:20:03.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Combi.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.cpp",
+              "RelativeDocumentMoniker": "..\\Accommodations\\Combi.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.cpp",
+              "RelativeToolTip": "..\\Accommodations\\Combi.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.h",
+              "RelativeDocumentMoniker": "..\\Accommodations\\Combi.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Combi.h",
+              "RelativeToolTip": "..\\Accommodations\\Combi.h",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-12T11:54:25.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Subsets.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Subsets.cpp",
+              "RelativeDocumentMoniker": "..\\Subsets\\Subsets.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Subsets.cpp",
+              "RelativeToolTip": "..\\Subsets\\Subsets.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Accommodations.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Accommodations.cpp",
+              "RelativeDocumentMoniker": "..\\Accommodations\\Accommodations.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Accommodations\\Accommodations.cpp",
+              "RelativeToolTip": "..\\Accommodations\\Accommodations.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-12T11:54:25.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.h",
+              "RelativeDocumentMoniker": "..\\Combinations\\Combi.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Combinations\\Combi.h",
+              "RelativeToolTip": "..\\Combinations\\Combi.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.h",
+              "RelativeDocumentMoniker": "..\\Subsets\\Combi.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Subsets\\Combi.h",
+              "RelativeToolTip": "..\\Subsets\\Combi.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-12T11:54:25.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Combi.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.h",
+              "RelativeDocumentMoniker": "..\\Permutations\\Combi.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab_2\\Permutations\\Combi.h",
+              "RelativeToolTip": "..\\Permutations\\Combi.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-12T11:54:25.519Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

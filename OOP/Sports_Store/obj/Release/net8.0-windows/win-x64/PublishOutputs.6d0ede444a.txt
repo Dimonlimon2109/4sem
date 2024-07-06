@@ -1,0 +1,10 @@
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\Sports_Store.pdb
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\D3DCompiler_47_cor3.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\PenImc_cor3.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\PresentationNative_cor3.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\vcruntime140_cor3.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\wpfgfx_cor3.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\Microsoft.Data.SqlClient.SNI.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\msalruntime.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\WebView2Loader.dll
+D:\study\4_sem\OOP\Sports_Store\bin\Release\net8.0-windows\publish\win-x64\Sports_Store.exe

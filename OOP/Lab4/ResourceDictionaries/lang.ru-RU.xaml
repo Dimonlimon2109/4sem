@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"                    
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="LanguageT">Русский</v:String>
+    <v:String x:Key="CategoryT">Категория</v:String>
+    <v:String x:Key="ColorT">Цвет</v:String>
+    <v:String x:Key="CostT">Цена</v:String>
+    <v:String x:Key="ApplyT">Применить</v:String>
+    <v:String x:Key="ResetT">Сбросить</v:String>
+    <v:String x:Key="AddingT">Добавление товара</v:String>
+    <v:String x:Key="NameT">Название</v:String>
+    <v:String x:Key="ShortNameT">Сокращенное название</v:String>
+    <v:String x:Key="DescriptionT">Описание</v:String>
+    <v:String x:Key="RatingT">Рейтинг</v:String>
+    <v:String x:Key="PriceT">Цена</v:String>
+    <v:String x:Key="AvailableT">В наличии?</v:String>
+    <v:String x:Key="ImageT">Изображение</v:String>
+    <v:String x:Key="ChooseT">Выбрать</v:String>
+    <v:String x:Key="AddT">Добавить</v:String>
+    <v:String x:Key="CurrencyT">руб</v:String>
+    <v:String x:Key="DeleteT">Удалить</v:String>
+    <v:String x:Key="EditT">Изменить</v:String>
+    <v:String x:Key="ChangeCT">Тема</v:String>
+</ResourceDictionary>

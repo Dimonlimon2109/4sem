@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\add.png" />
+    <None Remove="Resources\back-arrow_icon.png" />
+    <None Remove="Resources\back-icon.jpg" />
+    <None Remove="Resources\cancel.png" />
+    <None Remove="Resources\cart.png" />
+    <None Remove="Resources\cross.png" />
+    <None Remove="Resources\edit.png" />
+    <None Remove="Resources\edit32.png" />
+    <None Remove="Resources\exit.png" />
+    <None Remove="Resources\foto-empty.png" />
+    <None Remove="Resources\info.png" />
+    <None Remove="Resources\logo.png" />
+    <None Remove="Resources\loop.png" />
+    <None Remove="Resources\loopa.png" />
+    <None Remove="Resources\plus.png" />
+    <None Remove="Resources\profile.png" />
+    <None Remove="Resources\save.png" />
+    <None Remove="Resources\trash.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignInXamlToolkitAddOns" Version="0.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
+    <PackageReference Include="RoyWpf.Behaviors.MessengerTrigger" Version="0.1.2" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\add.png" />
+    <Resource Include="Resources\back-arrow_icon.png" />
+    <Resource Include="Resources\back-icon.jpg" />
+    <Resource Include="Resources\cancel.png" />
+    <Resource Include="Resources\cart.png" />
+    <Resource Include="Resources\cross.png" />
+    <Resource Include="Resources\edit.png" />
+    <Resource Include="Resources\edit32.png" />
+    <Resource Include="Resources\exit.png" />
+    <Resource Include="Resources\foto-empty.png" />
+    <Resource Include="Resources\info.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\loop.png" />
+    <Resource Include="Resources\loopa.png" />
+    <Resource Include="Resources\plus.png" />
+    <Resource Include="Resources\profile.png" />
+    <Resource Include="Resources\save.png" />
+    <Resource Include="Resources\trash.png" />
+  </ItemGroup>
+
+</Project>

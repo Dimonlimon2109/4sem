@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Sports_store.Views.LogIn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sports_store.Views"
+             xmlns:viewmodels="clr-namespace:Sports_store.ViewModels"
+             d:DataContext="{d:DesignInstance viewmodels:AuthorizationVM}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#c2c9cc">
+    <Grid>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Right" Orientation="Horizontal" >
+            <Button Width="30" Height="30" BorderThickness="0" Command="{Binding Hide}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Grid Background="Black">
+                                        <Rectangle Fill="White" Height="4" Width="15" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button Width="30" Height="30" BorderThickness="0" Command="{Binding Exit}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Grid Background="Black">
+                                        <Path Stroke="White" StrokeThickness="4" Data="M0,0 L30,30 M30,0 L0,30" />
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+     <TextBlock Style="{StaticResource TextBlockAuth}" Text="Вход" Margin="20" HorizontalAlignment="Center"></TextBlock>
+        <TextBlock Style="{StaticResource TextBlockAuth}" Text="Логин"></TextBlock>
+        <TextBox Style="{DynamicResource TextBoxAuth}" Text="{Binding CurrentLogin}"></TextBox>
+        <TextBlock Text="{Binding LoginError, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+        <TextBlock Style="{StaticResource TextBlockAuth}" Text="Пароль"></TextBlock>
+        <TextBox Style="{DynamicResource TextBoxAuth}" Text="{Binding CurrentPassword}"></TextBox>
+        <TextBlock Text="{Binding PasswordError, UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+            <Button  Style="{StaticResource BlackWhiteButton}" Margin="0 20 0 20" Command="{Binding GoToMain}" Content="Войти" Height="30">
+            </Button>
+            <Button Style="{StaticResource BlackWhiteButton}" Command="{Binding GotoReg}" Content="Регистрация" Height="30">
+            </Button>
+        </StackPanel>
+        </Grid>
+</UserControl>

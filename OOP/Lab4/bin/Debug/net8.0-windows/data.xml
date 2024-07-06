@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGood xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Good>
+    <FullName>Nike Air Jordan 4 full complection</FullName>
+    <ShortName>Nike Air Jordan</ShortName>
+    <Description>nice shoes for sport</Description>
+    <Rating>5</Rating>
+    <Image>D:\study\4_sem\OOP\Lab4\Resources\air-jordan-1.png</Image>
+    <Category>Обувь</Category>
+    <CategoryStr>Обувь</CategoryStr>
+    <Color>Черный</Color>
+    <ColorStr>Черный</ColorStr>
+    <IsAvailableBool>true</IsAvailableBool>
+    <Price>2000</Price>
+  </Good>
+  <Good>
+    <FullName>Футбольный мяч NIKE UEFA PREMIUM 2022</FullName>
+    <ShortName>Футбольный мяч NIKE</ShortName>
+    <Description>ШКОАКШОМКМШО</Description>
+    <Rating>4</Rating>
+    <Image>D:\study\4_sem\OOP\Lab4\Resources\defaultBall.png</Image>
+    <Category>Футбол</Category>
+    <CategoryStr>Футбол</CategoryStr>
+    <Color>Белый</Color>
+    <ColorStr>Белый</ColorStr>
+    <IsAvailableBool>true</IsAvailableBool>
+    <Price>500</Price>
+  </Good>
+  <Good>
+    <FullName>ierfjwoei</FullName>
+    <ShortName>ewuifheroi</ShortName>
+    <Description>urwfihowe</Description>
+    <Rating>2</Rating>
+    <Image>/Resources/defaultBall.png</Image>
+    <Category>Обувь</Category>
+    <CategoryStr>Обувь</CategoryStr>
+    <Color>Черный</Color>
+    <ColorStr>Черный</ColorStr>
+    <IsAvailableBool>false</IsAvailableBool>
+    <Price>0</Price>
+  </Good>
+  <Good>
+    <FullName>rds</FullName>
+    <ShortName>gyu</ShortName>
+    <Description>gyug</Description>
+    <Rating>4</Rating>
+    <Image>/Resources/defaultBall.png</Image>
+    <Category>Обувь</Category>
+    <CategoryStr>Обувь</CategoryStr>
+    <Color>Черный</Color>
+    <ColorStr>Черный</ColorStr>
+    <IsAvailableBool>false</IsAvailableBool>
+    <Price>0</Price>
+  </Good>
+</ArrayOfGood>

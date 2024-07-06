@@ -1,0 +1,251 @@
+﻿    <UserControl x:Class="Sports_store.Views.MainView.GoodPage"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                 xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                 xmlns:local="clr-namespace:Sports_store.Views.MainView"
+                 xmlns:viewmodels="clr-namespace:Sports_store.ViewModels"
+                 mc:Ignorable="d" 
+                 xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+             d:DesignHeight="700" d:DesignWidth="1000" Background="White">
+    <UserControl.DataContext>
+        <viewmodels:GoodPageVM/>
+    </UserControl.DataContext>
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+        </UserControl.Resources>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="1.5*"/>
+                <ColumnDefinition Width="220"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2.5*"/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Grid.Column="0" Grid.Row="0" Source="{Binding CurrentGood.Image, FallbackValue='pack://application:,,,/Resources/foto-empty.png',TargetNullValue='pack://application:,,,/Resources/foto-empty.png'}" RenderOptions.BitmapScalingMode="HighQuality"  Height="Auto" Width="Auto"  Margin="20 20 20 0">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseDown">
+                        <i:InvokeCommandAction Command="{Binding ChangeImage}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+        <StackPanel Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Margin="0 40 30 0">
+            <StackPanel Orientation="Horizontal">
+                <TextBox Style="{DynamicResource TextBoxGood}" FontSize="23" TextWrapping="Wrap" MaxLength="50" FontFamily="Montserrat" Text="{Binding CurrentGood.Name}"/>
+            </StackPanel>
+            <ComboBox Style="{DynamicResource ComboBoxCollapsed}" Text="{Binding CurrentGood.Category}" ItemsSource="{Binding Categories}">
+            </ComboBox>
+            <TextBlock Style="{DynamicResource TextBlockCollapsed}" Text="{Binding CurrentGood.Category}"/>
+            <ComboBox Style="{StaticResource ComboBoxCollapsed}" Text="{Binding CurrentGood.Type}" ItemsSource="{Binding Types}"/>
+            <TextBlock Style="{DynamicResource TextBlockCollapsed}" Text="{Binding CurrentGood.Type}"/>
+            <ComboBox Style="{StaticResource ComboBoxCollapsed}" Text="{Binding CurrentGood.Color}" ItemsSource="{Binding Colors}"/>
+            <TextBlock Style="{DynamicResource TextBlockCollapsed}" Text="{Binding CurrentGood.Color}"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox Style="{DynamicResource TextBoxGood}" Width="Auto" Margin="0 0 5 0" Text="{Binding CurrentGood.Cost, UpdateSourceTrigger=PropertyChanged}"/>
+                <TextBlock Margin="0 5 0 0" Style="{StaticResource TextBlockAuth}" Text="руб"/>
+            </StackPanel>
+            <Button Content="В корзину" Command="{Binding AddToBasket}" Width="100" HorizontalAlignment="Left">
+                <Button.Style>
+                    <Style TargetType="Button" BasedOn="{StaticResource BlackWhiteButton}">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsAdmin}" Value="True">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+        <TextBox HorizontalAlignment="Left" FontWeight="Normal" VerticalAlignment="Top" Grid.Row="1" Grid.Column="0" Margin="10 20 0 0"
+                 Grid.ColumnSpan="2" Height="Auto" Width="450" TextWrapping="Wrap" Style="{DynamicResource DescriptionGood}" 
+                 Text="{Binding CurrentGood.Description, UpdateSourceTrigger=PropertyChanged}" />
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0">
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Visibility" Value="Visible"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsAdmin}" Value="True">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+            <StackPanel Margin="20 0 0 0">
+                <materialDesign:RatingBar Value="{Binding CurrentReview.Rating, Mode=TwoWay}" Height="25" Margin="0 25 0 0"/>
+                <Button Height="40" Margin="0 30 0 0" Content="Добавить" Command="{Binding AddReview}"/>
+            </StackPanel>
+            <TextBox FontSize="15" TextWrapping="Wrap" Background="#E5E5E5" Width="300" Margin="40 0 0 0" Height="100" MaxLength="256" Text="{Binding CurrentReview.Description, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <StackPanel Margin="20 20 0 0"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsAdmin}" Value="True">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+            <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Количество:"/>
+                <TextBox Style="{StaticResource TextBoxGood}" Width="100" Text="{Binding CurrentGood.StockQuantity, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Всего продано:"/>
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="{Binding CurrentGood.SaledAmount}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="Всего отзывов:"/>
+                <TextBlock Style="{StaticResource TextBlockAuth}" Text="{Binding ReviewsNumber}"/>
+            </StackPanel>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel.Style>
+                    <Style TargetType="StackPanel">
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsAdmin}" Value="false">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </StackPanel.Style>
+                <Image Source="pack://application:,,,/Resources/trash.png" Height="64" Width="64">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsUpdate, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDown">
+                            <i:InvokeCommandAction Command="{Binding DeleteGood}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Image>
+                <Image Source="pack://application:,,,/Resources/edit.png" Height="64" Width="64">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsUpdate, UpdateSourceTrigger=PropertyChanged}" Value="True">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDown">
+                            <i:InvokeCommandAction Command="{Binding UpdateGood}" CommandParameter="True"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Image>
+                <Image Source="pack://application:,,,/Resources/save.png" Height="64" Width="64">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding IsUpdate, UpdateSourceTrigger=PropertyChanged}" Value="False">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="MouseDown">
+                            <i:InvokeCommandAction Command="{Binding UpdateGood}" CommandParameter="False"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </Image>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="2" Grid.RowSpan="2" Margin="20 0 0 0">
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsUpdate}" Value="true">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+            <TextBlock Style="{StaticResource TextBlockAuth}" Text="Отзывы" HorizontalAlignment="Center">
+            </TextBlock>
+            <ListBox BorderThickness="0" ItemsSource="{Binding Reviews}" Height="250" ScrollViewer.VerticalScrollBarVisibility="Visible" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                <ListBox.Resources>
+                    <Style TargetType="ScrollViewer">
+                        <Setter Property="Template" Value="{StaticResource AppleStyleScrollBarStyle}"/>
+                        <Setter Property="HorizontalScrollBarVisibility" Value="Hidden"/>
+                    </Style>
+                </ListBox.Resources>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="Tag" Value="{Binding DataContext.IsAdmin, RelativeSource={RelativeSource AncestorType={x:Type ListBox}}}" />
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Border Name="_Border" Padding="2" SnapsToDevicePixels="true">
+                                        <ContentPresenter />
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding Tag, RelativeSource={RelativeSource Self}}" Value="True" />
+                                                <Condition Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource Self}}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter TargetName="_Border" Property="Background" Value="Red" />
+                                        </MultiDataTrigger>
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding Tag, RelativeSource={RelativeSource Self}}" Value="False" />
+                                                <Condition Binding="{Binding Path=IsSelected, RelativeSource={RelativeSource Self}}" Value="True" />
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter TargetName="_Border" Property="Background" Value="Transparent" />
+                                        </MultiDataTrigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <UniformGrid Columns="1"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderBrush="Black" BorderThickness="1" Margin="5" Padding="5">
+                            <StackPanel>
+                                <StackPanel Orientation="Horizontal">
+                                    <Ellipse Height="70" Width="70" VerticalAlignment="Top">
+                                        <Ellipse.Fill>
+                                            <ImageBrush ImageSource="{Binding User.Image, UpdateSourceTrigger=PropertyChanged}"/>
+                                        </Ellipse.Fill>
+                                    </Ellipse>
+                                    <StackPanel Margin="10 0 0 0">
+                                        <TextBlock Text="{Binding User.Name}" FontFamily="Montressat" FontSize="16"/>
+                                        <TextBlock Text="{Binding Date}" FontWeight="Bold" FontSize="13"/>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding Rating}" FontWeight="Bold" Margin="0 0 5 0" FontSize="13"/>
+                                            <TextBlock Text="out of 5" FontSize="13"/>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Text="{Binding Description}" Style="{DynamicResource ReviewText}"/>
+                            </StackPanel>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </StackPanel>
+    </Grid>
+    </UserControl>

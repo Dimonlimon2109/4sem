@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+<h3>Заполните форму:</h3>
+<form id="myForm">
+    <div>
+        <label for="surname">Фамилия</label>
+        <input id="surname" type="text" name="surname" />
+        <div id = "surname_error" class="error"></div>
+    </div>
+    <div>
+        <label for="name">Имя</label>
+        <input id="name" type="text" name="name" />
+        <div id = "name_error" class="error"></div>
+    </div>
+    <div>
+        <label for="email">E-mail</label>
+        <input id="email" type="text" name="email" />
+        <div id = "email_error" class="error"></div>
+    </div>
+    <div>
+        <label for="number">Телефон <span style="font-size: smaller;">(0xx)xxx-xx-xx</span></label>
+        <input id="number" type="text" name="number" />
+        <div id = "number_error" class="error"></div>
+    </div>
+    <div>
+        <label for="town">Город</label>
+        <select id="town", name="town">
+            <option value="brest">Брест</option>
+            <option id="minsk" value="minsk">Минск</option>
+            <option value="borisov">Борисов</option>
+            <option value="baranov">Барановичи</option>
+        </select>
+    </div>
+    <div>
+        <label for="bstu">Я учусь в БГТУ</label>
+        <input id="bstu" type="checkbox" name="bstu">
+    </div>
+    <div>
+        <label>На каком курсе вы учитесь</label>
+        1<input id="course1" type="radio" name="course">
+        2<input id="course2" type="radio" name="course">
+        3<input id="course3" type="radio" name="course">
+        4<input id="course4" type="radio" name="course">
+    </div>
+    <label for="about" class="about_label">Расскажите о себе</label>
+    <textarea id="about" name="about" rows="8" cols="30"></textarea>
+    <div id = "about_error" class="error"></div>
+    <div>
+        <input type="submit" id="submitButton" name="submit_button" value="Проверить">
+    </div>
+</form>
+<script src="validation.js"></script>
+</body>
+</html>

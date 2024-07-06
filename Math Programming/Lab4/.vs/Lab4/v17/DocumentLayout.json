@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\study\\4_sem\\Math Programming\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|solutionrelative:Levenshtein.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225D0DB6-39C7-44CC-82E4-9605408E235E}|..\\MultiMatrix\\MultiMatrix.vcxproj|D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBD6FB15-6064-4FA3-9AD9-4A41B8E936DA}|..\\String_generator\\String_generator.vcxproj|D:\\study\\4_sem\\Math Programming\\String_generator\\String_generator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D2441BFD-CDDC-4E52-A50F-2D88245CB032}|Lab4.vcxproj|solutionrelative:Levenshtein.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225D0DB6-39C7-44CC-82E4-9605408E235E}|..\\MultiMatrix\\MultiMatrix.vcxproj|D:\\study\\4_sem\\Math Programming\\MultiMatrix\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{225D0DB6-39C7-44CC-82E4-9605408E235E}|..\\MultiMatrix\\MultiMatrix.vcxproj|D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 241,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\main.cpp",
+              "RelativeDocumentMoniker": "..\\MultiMatrix\\main.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\main.cpp",
+              "RelativeToolTip": "..\\MultiMatrix\\main.cpp",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T10:57:31.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "String_generator.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\String_generator\\String_generator.cpp",
+              "RelativeDocumentMoniker": "..\\String_generator\\String_generator.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\String_generator\\String_generator.cpp",
+              "RelativeToolTip": "..\\String_generator\\String_generator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwBoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T10:59:45.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MultiMatrix.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.cpp",
+              "RelativeDocumentMoniker": "..\\MultiMatrix\\MultiMatrix.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.cpp",
+              "RelativeToolTip": "..\\MultiMatrix\\MultiMatrix.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T10:57:14.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MultiMatrix.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.h",
+              "RelativeDocumentMoniker": "..\\MultiMatrix\\MultiMatrix.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\MultiMatrix\\MultiMatrix.h",
+              "RelativeToolTip": "..\\MultiMatrix\\MultiMatrix.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-09T10:56:31.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Levenshtein.h",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.h",
+              "RelativeDocumentMoniker": "Levenshtein.h",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.h",
+              "RelativeToolTip": "Levenshtein.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-09T10:53:12.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab4\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab4\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T10:52:41.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Levenshtein.cpp",
+              "DocumentMoniker": "D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.cpp",
+              "RelativeDocumentMoniker": "Levenshtein.cpp",
+              "ToolTip": "D:\\study\\4_sem\\Math Programming\\Lab4\\Levenshtein.cpp",
+              "RelativeToolTip": "Levenshtein.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T10:52:33.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

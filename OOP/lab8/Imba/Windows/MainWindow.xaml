@@ -1,0 +1,18 @@
+﻿<Window x:Class="Imba.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Imba"
+        xmlns:vms="clr-namespace:Imba.ViewModels" 
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        d:DataContext="vms:BaseVM"
+        x:Name="Window">
+    <Window.DataContext>
+        <vms:BaseVM/>
+    </Window.DataContext>
+    <ContentControl DataContext="{Binding }" x:Name="CurrentView" Content="{Binding MainView}">
+    </ContentControl>
+</Window>
